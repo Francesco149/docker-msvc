@@ -17,7 +17,7 @@ example:
 cd C:\my\project
 # put your stuff in release.ps1
 docker pull lolisamurai/msvc
-docker run --rm -v (Get-Location).Path:c:\build lolisamurai:msvc
+docker run --rm -v (Get-Location).Path:c:\build lolisamurai/msvc
 ```
 
 to use cl and other msvc tools from your powershell script you need
